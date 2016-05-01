@@ -48,7 +48,7 @@ All API calls go to https://connect.monstercat.com/.
 
 ### /api/user/**&lt;user_id&gt;**/referral-code
 **GET**
-*Returns ?. Empty JSON object for me.
+*Returns ?. Empty JSON object for me.*
 
 ### /subscription/payments/**&lt;user_id&gt;**
 **GET**

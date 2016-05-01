@@ -14,8 +14,8 @@ All API calls go to https://connect.monstercat.com/.
 | /api/playlist/**&lt;playlist_id&gt;** | PUT | [Add a song to a playlist](#apiplaylist) |
 | /api/self/session         | GET | [Returns information about the users](#apiselfsession) |
 | /api/self/referral-code   | GET | [Redirects you](#apiselfreferral-code) |
-| /api/user/**&lt;user_id&gt;**/referral-code| GET | [?]() |
-| /subscription/payments/**&lt;user_id&gt;** | GET | [Returns all payments of the user]() |
+| /api/user/**&lt;user_id&gt;**/referral-code| GET | [?](#apiuseruser_idreferral-code) |
+| /subscription/payments/**&lt;user_id&gt;** | GET | [Returns all payments of the user](#subscriptionpaymentsuser_id) |
 
 ### /signin
 **POST**

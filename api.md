@@ -30,7 +30,7 @@ All API calls go to https://connect.monstercat.com/.
 **GET**
 *Returns all tracks available*
 
-### /api/playlisti
+### /api/playlist
 **GET**
 *Return all user playlists with tracks*
 
@@ -41,6 +41,15 @@ All API calls go to https://connect.monstercat.com/.
 **PUT**
 *Add a track to a playlist.*
 `{"_id":"56290bf0ddd2cfb810eddae9","name":"Valkyrie","userId":"55fc1f7d53c399fc274c5054","deleted":false,"public":false,"tracks":[{"trackId":"53a0c93640cc048e26f848e6","releaseId":"53a897d07f9a812a0d96bbdc"},{"trackId":"542f2c17502836c00e5be117","releaseId":"542f2bac502836c00e5be116"},{"trackId":"5614507cc5df9f40201f85ed","releaseId":"561c5da57fb673586a3d2a98"},{"trackId":"56e0a83280a64c6105fcc8ec","releaseId":"57083d7e85ff0545443034e3","startTime":0}]}`
+
+### /api/playlist/**&lt;playlist_id&gt;**
+**PUT**
+*Rename playlist or make public*
+`{"_id":"5725bc898fcb2ef579fe5f9d","name":"TESTINGRENAME","userId":"55fc1f7d53c399fc274c5054","deleted":false,"public":false,"tracks":[]}`
+
+**DELETE**
+*Remove playlist*
+
 
 ### /api/self/session
 **GET**
